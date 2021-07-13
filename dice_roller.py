@@ -1,8 +1,9 @@
+import random
 def main():
-  print('You rolled a die')
-  import random
-  rnd = radom.randint(1, 6)
-  Print (" Your number is " + str(rnd) )
+    dice_rolls = 50
+    for i in range(0, dice_rolls):
+      rnd = random.randint(1, 6)
+      print (f' You rolled a {rnd}' )
 
 if __name__== "__main__":
-  main()
+    main()
